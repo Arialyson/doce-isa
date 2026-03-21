@@ -1,0 +1,16 @@
+site_name: Doce ASA
+site_author: Arialyson Lima
+site_url: https://arialyson.github.io/doce-isa/
+
+repo_url: https://github.com/arialyson/doce-isa
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: pt
+  features:
+    - content.action.edit
+    - content.action.view
+  palette:
+    primary: green
+    accent: green

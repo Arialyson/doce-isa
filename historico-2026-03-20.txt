@@ -1,0 +1,16 @@
+    1  uv
+    2  uv init
+    3  clear
+    4  uv init
+    5  clear
+    6  curl -LsSf https://astral.sh/uv/install.sh | sh
+    7  uv
+    8  uv init
+    9  uv add mkdocs
+   10  uv add mkdocs-material
+   11  uv run mkdocs
+   12  uv run mkdocs new .
+   13  uv run mkdocs serve
+   14  uv run mkdocs gh-deploy
+   15  history
+   16  history > historico-2026-03-20.txt
